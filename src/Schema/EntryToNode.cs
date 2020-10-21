@@ -21,10 +21,10 @@ namespace SpaceLibrary
                 OnlyAbstract          = citation.onlyAbstract,
                 IsLessonsLearned      = citation.isLessonsLearned,
                 SensitiveInformation  = citation.sensitiveInformation,
-                DistributionDate      = citation.distributionDate,
-                SubmittedDate         = citation.submittedDate,
-                Modified              = citation.modified,
-                Created               = citation.created
+                DistributionDate      = citation.distributionDate.Year > 1950 ? citation.distributionDate : DateTime.UnixEpoch,
+                SubmittedDate         = citation.submittedDate.Year > 1950 ? citation.submittedDate : DateTime.UnixEpoch,
+                Modified              = citation.modified.Year > 1950 ? citation.modified : DateTime.UnixEpoch,
+                Created               = citation.created.Year > 1950 ? citation.created : DateTime.UnixEpoch
             };
 
             return entry;
