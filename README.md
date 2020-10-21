@@ -24,7 +24,7 @@ cd space-library
 dotnet run {SERVER_URL} {AUTH_TOKEN}
 ```
 
-You need to replace {SERVER_URL} with the address your server is listing to (usually http://localhost:8080 if you're running it locally), and {AUTH_TOKEN} with the API token generated earlier.
+You need to replace `{SERVER_URL}` with the address your server is listing to (usually `http://localhost:8080` if you're running it locally), and `{AUTH_TOKEN}` with the API token generated earlier.
 
 ## Acknowledgements
 
