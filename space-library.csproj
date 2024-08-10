@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Azure.Storage.Blobs" Version="12.7.0" />
-    <PackageReference Include="Curiosity.Library" Version="1.0.14825" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.21.2" />
+    <PackageReference Include="Curiosity.Library" Version="24.8.51133" />
   </ItemGroup>
   
 </Project>
